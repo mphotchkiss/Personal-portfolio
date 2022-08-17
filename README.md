@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-A node.js react.js web application built to host my professional resume, portfolio of work, information, and external links.
+A React.js web application built to host my professional resume, portfolio of work, information, and external resources.
 
 ## What I learned
 
