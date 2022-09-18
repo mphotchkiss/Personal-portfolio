@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import { Navbar } from './components/navbar.js';
 import { HomeSection, PortfolioSection, ContactSection, AboutSection, ResumeSection } from './components/sections/section'
 import Typed from 'typed.js';
