@@ -17,18 +17,18 @@ class ResumeSection extends React.Component {
           <h3 className="resume-title">Summary</h3>
           <div className="resume-item pb-0">
             <h4>Matthew Hotchkiss</h4>
-            <p><em>Detail-oriented and adaptive software engineer with 1+ years of experience in an agile environment developing backend web and cloud application solutions.</em></p>
+            <p><em>1+ years of experience developing:</em></p>
             <ul>
-              <li>Portland, OR</li>
-              <li>(971) 400-8884</li>
-              <li>mphotchkiss01@gmail.com</li>
+              <li>Ruby on Rails</li>
+              <li>Agile environment</li>
+              <li>Backend web application solutions</li>
             </ul>
           </div>
   
           <h3 className="resume-title">Education</h3>
           <div className="resume-item">
             <h4>Bachelor of Computer Science Systems</h4>
-            <h5>2019-Present</h5>
+            <h5>2019 - June, 2023</h5>
             <p><em>Oregon State University, Corvallis, OR</em></p>
             <p>Current senior with a focus lower among the layers of abstraction: machine code, computer architecture, operating systems, compilers. Auxiliary academic pursuits include AI/machine Learning, cryptography, and mobile/cloud app development</p>
           </div>

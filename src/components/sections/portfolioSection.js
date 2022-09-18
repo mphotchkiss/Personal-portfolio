@@ -81,12 +81,12 @@ class PortfolioItem extends React.Component {
             <p>{this.props.repo["description"]}</p>
             <div className="portfolio-topics">
                 {
-                    this.props.repo["topics"].map(function (topic) {
+                    this.props.repo["topics"].map(function (topic, index) {
                         if (topic.length > 4)
                             topic = topic.charAt(0).toUpperCase() + topic.slice(1);
                         else
                             topic = topic.toUpperCase()
-                        return <div className="portfolio-topic">{topic}</div>
+                        return <div className="portfolio-topic" key={index}>{topic}</div>
                     })
                 }
             </div>

@@ -8,11 +8,13 @@ class AboutSection extends React.Component {
         
                     <div className="section-title">
                         <h2>About</h2>
-                        <p>Hi, my name is Matthew Hotchkiss, a senior computer science major at Oregon State University.
-                          I am passionate, driven, and organized in my academic and professional pursuits, and I strive to find
-                          ways in which I can enhance the learning of not only myself but my peers by engaging in meaningful collaboration,
-                          discussion, and inquiry. As such, I take pride in my ability to think on my feet and take on new challenges 
-                          with which I am unfamiliar. Throw me into the fire! </p>
+                        <p>
+                            My goal is to impact complex vertical products in creative ways - ways that challenge my peers and myself.
+                            I am extremely diligent, organized, and detail-oriented.
+                            As such, I am outcome-driven and often have a hard time putting a problem down until it's been completed to an exemplary degree of detail.
+                            Beyond myself, I absolutely relish opportunities to work alongside my peers; Peers are an opportunity for engagement, learning, team building, and so much more.
+                            I recognize the value an environment can have in all group settings, and I strive to create one of positive influence.
+                        </p>
                     </div>
             
                     <div className="row">
@@ -22,15 +24,14 @@ class AboutSection extends React.Component {
                         <div className="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>Software Engineer</h3>
                         <p className="fst-italic">
-                            Feel free to contact me via any listed mediums on my site. Some details about myself:
+                            Feel free to contact me via any mediums made available here. Some details about myself:
                         </p>
                         <div className="row">
                             <div className="col-lg-6">
                             <ul>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 2001</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Portland, OR USA</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>971-400-8884</span></li>
+                                <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mphotchkiss01@gmail.com</span></li>
                             </ul>
                             </div>
                             <div className="col-lg-6">
@@ -38,17 +39,15 @@ class AboutSection extends React.Component {
                                 <li><i className="bi bi-chevron-right"></i> <strong>Year:</strong> <span>Senior</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS Computer Science Systems</span></li>
                                 <li><i className="bi bi-chevron-right"></i> <strong>Education:</strong> <span>Oregon State University</span></li>
-                                <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mphotchkiss01@gmail.com</span></li>
                             </ul>
                             </div>
                         </div>
+                        <h3>Creative, Active, Sociable</h3>
                         <p>
-                            As an engineer, the concrete goal is to positively impact complex vertical products with innovative, effective,
-                            and user-centric thinking, all while delivering within the restrictions of the team, timeframe, budget, tools, etc.
-                            However, engineers collectively hold the responsibility to uphold standards, morals, and goals that contribute to the well-being of others.
-                            My goal is to accomplish both.
+                            Outside of my academic and professional life, I like to focus on my health: running, biking, playing basketball & soccer, and bowling often.
+                            In my freetime, I also enjoy getting creative away from the computer, namely in the kitchen; However, I also create customized shoes for myself and family, and I occassionally can be caught building something.
+                            Otherwise, I cherish the time I am blessed to spend with my brothers, parents, friends, and other loved ones. 
                         </p>
-                        <p><strong>I am interested in teams that ambitiously tackle their product goals, while also devoting themselves to each other, their users, and goals that better serve local, national, and international communities in need.</strong></p>
                         </div>
                     </div>
                 </div>
