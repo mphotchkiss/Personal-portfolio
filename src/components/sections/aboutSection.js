@@ -19,7 +19,7 @@ class AboutSection extends React.Component {
             
                     <div className="row">
                         <div className="col-lg-4">
-                        <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""></img>
+                        {/* <img src="assets/img/profile-img.jpg" className="img-fluid" alt=""></img> */}
                         </div>
                         <div className="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>Software Engineer</h3>
