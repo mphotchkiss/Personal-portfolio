@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../resources/Resume.pdf'
+import resume from '../../resources/Matthew_Hotchkiss_Resume.pdf'
 import { saveAs } from 'file-saver'
 
 class ResumeSection extends React.Component {
@@ -61,7 +61,7 @@ class ResumeSection extends React.Component {
         <button onClick={() => {
           saveAs(
             resume,
-            'Matthew_Hotchkiss_resume.pdf'
+            'Matthew_Hotchkiss_Resume.pdf'
           )
         }}>Download Full Resume</button>
       </div>
