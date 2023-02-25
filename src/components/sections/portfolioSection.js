@@ -1,5 +1,20 @@
 import React from 'react';
 
+const statics = [
+  {
+    "html_url": "https://github.com/CS461PollingApplication/my-classroom-backend",
+    "name": "My-Classroom-BE",
+    "description": "Backend System for Classroom Polling",
+    "topics": ["Express-js", "Node-js", "API"]
+  },
+  {
+    "html_url": "https://github.com/CS461PollingApplication/my-classroom-fe",
+    "name": "My-Classroom-FE",
+    "description": "Frontend System for Classroom Polling",
+    "topics": ["React-js", "Redux", "SPA"]
+  }
+]
+
 class PortfolioSection extends React.Component {
     render() {
         return (
@@ -26,7 +41,9 @@ class Portfolio extends React.Component {
     super(props)
 
     this.state = {
-      repos: [],
+      repos: [
+        {}
+      ],
       DataIsLoaded: false
     }
   }
@@ -51,8 +68,12 @@ class Portfolio extends React.Component {
     fetch ('https://api.github.com/users/mphotchkiss/repos')
     .then((res) => res.json())
     .then((json) => {
+      let temp = [
+        ...statics,
+        ...json,
+      ]
       this.setState({
-        repos: json,
+        repos: temp,
         DataIsLoaded: true
       })
     })

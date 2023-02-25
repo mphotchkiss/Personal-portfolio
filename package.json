@@ -49,5 +49,7 @@
   "devDependencies": {
     "gulp": "^4.0.2"
   },
-  "engines": { "node" : "16.13.0" }
+  "engines": {
+    "node": "16.13.0"
+  }
 }

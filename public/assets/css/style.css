@@ -543,10 +543,12 @@ button {
   padding-top: 10px;
   padding-bottom: 13px;
   background: #3b84d7;
+  height: 100%;
 }
 
 .portfolio .portfolio-item .portfolio-topics {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio .portfolio-item .portfolio-topics .portfolio-topic {
